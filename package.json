@@ -1,0 +1,30 @@
+{
+  "name": "uptasknodejs",
+  "version": "1.0.0",
+  "description": "Proyecto uptask con node y MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "dev": "node ./index.js"
+  },
+  "author": "David Villanueva",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "html-to-text": "^5.1.1",
+    "juice": "^7.0.0",
+    "nodemailer": "^6.4.10",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.0",
+    "shortid": "^2.2.15",
+    "slug": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

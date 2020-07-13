@@ -1,0 +1,14 @@
+npm init
+npm install --save express	
+npm install --save-dev nodemon    //Sirve para mostrar los cambios sin reiniciar el servidor
+npm run start  // para levantar o correr el proyecto
+npm install --save pug 
+npm install --save sequelize
+npm install --save pg pg-hstore
+npm install --save express-validator
+npm install --save slug //generar url
+npm install --save shortid //generar uuid cortos
+npm install --save bcrypt-nodejs //incriptacion de claves
+npm install --save nodemailer juice html-to-text // envio de correo
+npm install --save dotenv // variables de entorno de sistema
+https://www.youtube.com/watch?v=HRrqF8ISQJs
